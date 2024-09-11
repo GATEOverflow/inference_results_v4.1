@@ -15,7 +15,7 @@
 # This Makefile includes all the variables and targets used to set up NVIDIA's MLPerf Inference docker environment
 include $(CURDIR)/Makefile.const
 
-ENV ?= release
+ENV = release
 
 USE_NIGHTLY ?= 0
 
